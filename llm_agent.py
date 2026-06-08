@@ -33,7 +33,7 @@ def evaluate_email_behavior(email_body_text):
     """
     
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-2.0-flash',
         contents=prompt,
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
@@ -45,11 +45,12 @@ def evaluate_email_behavior(email_body_text):
 
     return scorecard
 
-sample_scam_email = """
-Hi there! I am Ann from Qual. 
-We loved your resume. We want to hire you right away for a W-2 role. 
-Please message me on Telegram at @HR to do a text-based interview. 
-If hired, we will mail you a check for $2,000 to buy a MacBook.
-"""
+if __name__ == "__main__":
+    sample_scam_email = """
+    Hi there! I am Scott Sonneborn from Expedition Labs. 
+    We loved your resume. We want to hire you right away for a W-2 role. 
+    Please message me on Telegram at @ScottHR to do a text-based interview. 
+    If hired, we will mail you a check for $2,000 to buy a MacBook.
+    """
 
-evaluate_email_behavior(sample_scam_email)
+    evaluate_email_behavior(sample_scam_email)
