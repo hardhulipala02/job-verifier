@@ -47,7 +47,7 @@ def evaluate_email_behavior(email_body_text):
 
 if __name__ == "__main__":
     sample_scam_email = """
-    Hi there! I am Scott Sonneborn from Expedition Labs. 
+    Hi there! I'm Anne from XXXX. 
     We loved your resume. We want to hire you right away for a W-2 role. 
     Please message me on Telegram at @ScottHR to do a text-based interview. 
     If hired, we will mail you a check for $2,000 to buy a MacBook.
