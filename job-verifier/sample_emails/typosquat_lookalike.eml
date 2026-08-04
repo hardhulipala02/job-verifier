@@ -1,0 +1,15 @@
+From: LinkedIn Talent <recruiter@linkedln.com>
+To: candidate@example.com
+Subject: LinkedIn Recruiter wants to connect about a role
+Date: Tue, 9 Jun 2026 11:00:00 -0700
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=linkedln.com;
+ dkim=pass header.d=linkedln.com; dmarc=pass header.from=linkedln.com
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+This is the LinkedIn talent team. We are hiring a Senior Account Executive and
+believe you are a great fit. Reply here to begin the process.
+
+Thanks,
+LinkedIn Talent

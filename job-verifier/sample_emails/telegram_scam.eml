@@ -1,0 +1,20 @@
+From: Anne Recruiter <anne.hr2024@gmail.com>
+To: candidate@example.com
+Subject: Urgent: We want to hire you right away!
+Date: Mon, 10 Jun 2026 09:12:00 -0700
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=gmail.com;
+ dkim=pass header.d=gmail.com; dmarc=pass header.from=gmail.com
+Content-Type: text/plain; charset="utf-8"
+
+Hi there!
+
+I'm Anne from Globex Corporation. We loved your resume and want to hire you
+right away for a remote W-2 role paying $45/hour with no experience required.
+
+Please message me on Telegram at @GlobexHR immediately to do a quick
+text-based interview. If hired, we will mail you a check for $2,000 so you can
+buy a MacBook and other equipment for the role.
+
+Looking forward to hearing from you ASAP!
+
+Anne

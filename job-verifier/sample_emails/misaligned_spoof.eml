@@ -1,0 +1,16 @@
+From: Google Careers <careers@google.com>
+To: candidate@example.com
+Subject: Your Google application — next steps
+Date: Wed, 11 Jun 2026 08:45:00 -0700
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=bulk-mailer.ru;
+ dkim=pass header.d=bulk-mailer.ru; dmarc=none header.from=google.com
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+Thank you for applying to Google. We would like to move forward with your
+application for the Software Engineer position. Please confirm your details to
+proceed.
+
+Regards,
+Google Careers Team

@@ -1,0 +1,19 @@
+From: Jordan Lee <jordan.lee@stripe.com>
+To: candidate@example.com
+Subject: Stripe — Backend Engineer interview scheduling
+Date: Wed, 11 Jun 2026 10:30:00 -0700
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=stripe.com;
+ dkim=pass header.d=stripe.com; dmarc=pass header.from=stripe.com
+Content-Type: text/plain; charset="utf-8"
+
+Hi,
+
+Thank you for your interest in the Backend Engineer role at Stripe. I'd like to
+set up a 45-minute technical interview next week. Could you share a few time
+slots that work for you?
+
+You can read more about the team here: https://stripe.com/jobs
+
+Best regards,
+Jordan Lee
+Technical Recruiter, Stripe

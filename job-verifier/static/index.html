@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Scam Checker</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🛡️ Job Scam Checker</h1>
+    <p class="tagline">Paste a recruiter email or message and find out if it's safe.</p>
+  </header>
+
+  <main>
+    <div class="tabs">
+      <button class="tab active" data-tab="email">📧 Email</button>
+      <button class="tab" data-tab="message">💬 LinkedIn / Message</button>
+    </div>
+
+    <!-- EMAIL TAB -->
+    <section id="email" class="panel active">
+      <p class="hint">
+        Paste the <strong>full raw email</strong> (with headers) or upload a
+        <code>.eml</code> file. Headers let us check the sender domain and
+        SPF/DKIM/DMARC authentication.
+      </p>
+      <textarea id="emailText" placeholder="Paste the raw email here, including headers..."></textarea>
+      <div class="row">
+        <label class="file-label">
+          📎 Upload .eml
+          <input type="file" id="emailFile" accept=".eml,message/rfc822" hidden />
+        </label>
+        <span id="fileName" class="file-name"></span>
+        <label class="toggle">
+          <input type="checkbox" id="emailLlm" /> Use AI (if configured)
+        </label>
+        <button id="analyzeEmail" class="primary">Check Email</button>
+      </div>
+    </section>
+
+    <!-- MESSAGE TAB -->
+    <section id="message" class="panel">
+      <p class="hint">
+        Paste a <strong>LinkedIn / WhatsApp / platform message</strong> from a
+        recruiter. (No email headers here, so we focus on the wording, links,
+        and contact handles.)
+      </p>
+      <input type="text" id="senderName" placeholder="Sender name (optional, e.g. 'Anne from Globex')" />
+      <textarea id="messageText" placeholder="Paste the recruiter's message here..."></textarea>
+      <div class="row">
+        <label class="toggle">
+          <input type="checkbox" id="messageLlm" /> Use AI (if configured)
+        </label>
+        <button id="analyzeMessage" class="primary">Check Message</button>
+      </div>
+    </section>
+
+    <div id="result" class="result hidden"></div>
+  </main>
+
+  <footer>
+    <span id="status"></span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+From: Talent Team <careers@stripe.com>
+To: candidate@example.com
+Subject: Following up on your application
+Date: Tue, 11 Jun 2026 14:03:00 -0700
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=stripe.com;
+ dkim=fail header.d=stripe.com; dmarc=fail header.from=stripe.com
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+Thanks for applying. We would love to schedule a short call to discuss next
+steps for the Software Engineer position.
+
+Best,
+The Talent Team

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <strong>🛡️ Job Scam Checker</strong>
+  </header>
+
+  <p class="hint">
+    Select the recruiter's message on the page (or just click Scan to grab the
+    LinkedIn conversation), then check it for scam red flags.
+  </p>
+
+  <button id="scan" class="primary">🔍 Scan this page</button>
+
+  <details>
+    <summary>Or paste a message</summary>
+    <textarea id="manualText" placeholder="Paste a recruiter message here..."></textarea>
+    <button id="scanManual" class="secondary">Check pasted text</button>
+  </details>
+
+  <div id="result" class="result hidden"></div>
+
+  <footer>
+    <label>API: <input type="text" id="apiBase" value="http://127.0.0.1:8000" /></label>
+    <span id="status"></span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

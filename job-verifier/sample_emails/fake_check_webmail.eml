@@ -1,0 +1,21 @@
+From: HR Department <acme.hiring.team@outlook.com>
+To: candidate@example.com
+Subject: Congratulations! You are hired (no interview needed)
+Date: Mon, 8 Jun 2026 16:20:00 -0700
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=outlook.com;
+ dkim=pass header.d=outlook.com; dmarc=pass header.from=outlook.com
+Content-Type: text/plain; charset="utf-8"
+
+Dear Applicant,
+
+Congratulations! You have been selected for the Administrative Assistant
+position at Acme Corp. No interview is required.
+
+To get started, we will mail you a check for $3,850. Please deposit it and use
+the funds to purchase a laptop and software from our approved vendor. Send any
+remaining balance back to us via Zelle.
+
+Contact me on WhatsApp at +1 (202) 555-0184 to confirm your mailing address.
+
+Welcome aboard,
+HR Department

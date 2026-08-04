@@ -1,0 +1,78 @@
+body {
+  width: 360px;
+  margin: 0;
+  padding: 12px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+header { font-size: 1.05rem; margin-bottom: 8px; }
+.hint { color: #94a3b8; font-size: .8rem; margin: 0 0 10px; }
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: .6rem;
+  font-size: .95rem;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+button.primary { background: #6366f1; color: #fff; }
+button.secondary { background: #334155; color: #e2e8f0; }
+button:disabled { opacity: .6; cursor: default; }
+
+details { margin-bottom: 8px; }
+summary { cursor: pointer; color: #94a3b8; font-size: .85rem; }
+textarea {
+  width: 100%;
+  min-height: 90px;
+  margin: 6px 0;
+  background: #0b1220;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: .5rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.result {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 6px;
+}
+.hidden { display: none; }
+
+.banner {
+  display: flex; align-items: center; gap: .5rem;
+  padding: .6rem; border-radius: 8px; margin-bottom: .6rem;
+}
+.banner .emoji { font-size: 1.6rem; }
+.banner .level { font-weight: 700; font-size: 1.1rem; }
+.banner .summary { font-size: .78rem; color: rgba(255,255,255,.9); }
+.risk-LOW { background: rgba(34,197,94,.15); border: 1px solid #22c55e; }
+.risk-LOW .level { color: #22c55e; }
+.risk-MEDIUM { background: rgba(245,158,11,.15); border: 1px solid #f59e0b; }
+.risk-MEDIUM .level { color: #f59e0b; }
+.risk-HIGH { background: rgba(239,68,68,.15); border: 1px solid #ef4444; }
+.risk-HIGH .level { color: #ef4444; }
+
+.section-title {
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .05em;
+  color: #94a3b8; margin: .6rem 0 .2rem;
+}
+ul { margin: 0; padding-left: 1.1rem; font-size: .85rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .3rem; }
+.chip {
+  background: #0b1220; border: 1px solid #334155; border-radius: 999px;
+  padding: .15rem .5rem; font-size: .72rem;
+}
+.notes { color: #94a3b8; font-size: .78rem; }
+
+footer { margin-top: 10px; font-size: .72rem; color: #94a3b8; }
+footer input { width: 170px; background: #0b1220; color: #e2e8f0;
+  border: 1px solid #334155; border-radius: 6px; padding: .2rem; }
+#status { display: block; margin-top: 4px; }
